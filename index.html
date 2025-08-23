@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dishanth H.G — Portfolio</title>
+  <meta name="description" content="Portfolio of Dishanth H.G — Computer Science Engineering student specializing in DSA, DBMS, OS, CN; projects in AI/ML and full‑stack web development.">
+  <meta property="og:title" content="Dishanth H.G — Portfolio">
+  <meta property="og:description" content="Computer Science Engineering student | Full‑Stack Developer | Problem Solver">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#home">DHG</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Dishanth H.G</span></h1>
+          <p class="tagline">Computer Science Engineering student at BMSIT&M (CGPA 8.7/10)<br/>
+          Full‑Stack Developer • Problem Solver • AI/ML Enthusiast
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View My Work</a>
+            <a class="btn" href="assets/Dishanth_Resume.docx" download>Download Resume</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Dishanthg" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/dishanth-h-g" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://leetcode.com/u/dishanthhg/" target="_blank" rel="noopener">LeetCode</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="avatar" aria-label="Profile picture placeholder">
+            <span>DH</span>
+          </div>
+          <p class="photo-note">Replace with your real photo (assets/profile.jpg)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>About</h2>
+          <p>
+            Passionate Computer Science Engineering student with strong foundations in
+            Data Structures &amp; Algorithms, Operating Systems, DBMS, ADA, and Computer Networks.
+            Experienced in Python, Java, C and full‑stack projects, with a passion for building practical and impactful solutions.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <ul class="edu">
+            <li>
+              <strong>B.E., Computer Science &amp; Engineering</strong><br/>
+              BMSIT&amp;M College of Engineering — <em>Expected Graduation: 2027</em><br/>
+              CGPA: 8.7 / 10
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="chip">Python</div>
+          <div class="chip">Java</div>
+          <div class="chip">C</div>
+          <div class="chip">C++</div>
+          <div class="chip">DSA</div>
+          <div class="chip">DBMS</div>
+          <div class="chip">Operating Systems</div>
+          <div class="chip">Computer Networks</div>
+          <div class="chip">OOP</div>
+          <div class="chip">Microcontrollers</div>
+          <div class="chip">Django</div>
+          <div class="chip">Kivy</div>
+          <div class="chip">OpenCV</div>
+          <div class="chip">TensorFlow</div>
+          <div class="chip">Git</div>
+          <div class="chip">SQL</div>
+          <div class="chip">Cloud Basics (AWS/GCP)</div>
+          <div class="chip">Project Development</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>AI‑Powered Voice Assistant for Visually Impaired</h3>
+            <p>
+              Seeing AI–like assistant with OCR, image recognition, barcode scanning, and face detection using
+              ResNet50, Tesseract OCR, DeepFace, and Pyzbar. Implemented multilingual TTS &amp; voice control using
+              Vosk, gTTS, and Pygame. Fully keyboard‑free.
+            </p>
+            <div class="meta">
+              <span class="pill">ResNet50</span>
+              <span class="pill">Tesseract</span>
+              <span class="pill">DeepFace</span>
+              <span class="pill">Pyzbar</span>
+              <span class="pill">Vosk</span>
+              <span class="pill">gTTS</span>
+              <span class="pill">Pygame</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Alumni Management System (Web App)</h3>
+            <p>
+              Django‑based alumni portal with authentication, event management, and database search.
+              Designed relational schema and optimized SQL queries for scalability.
+            </p>
+            <div class="meta">
+              <span class="pill">Django</span>
+              <span class="pill">PostgreSQL/SQL</span>
+              <span class="pill">Auth</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section alt">
+      <div class="container">
+        <h2>Achievements</h2>
+        <ul class="list">
+          <li>Solved 100+ DSA problems on LeetCode, Codeforces, and GeeksforGeeks.</li>
+          <li>Hackathon Finalist — inCSEption 2024 (AI‑Powered Voice Assistant).</li>
+          <li>Certifications in DBMS, AI/ML, Cloud, and DSA.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Contact</h2>
+          <p>Open to internships, freelance, and collaborations.</p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:dishanthg66@gmail.com">dishanthg66@gmail.com</a></li>
+            <li>Phone: <a href="tel:+916366591695">+91 63665 91695</a></li>
+            <li>GitHub: <a href="https://github.com/Dishanthg" target="_blank" rel="noopener">github.com/Dishanthg</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/dishanth-h-g" target="_blank" rel="noopener">linkedin.com/in/dishanth-h-g</a></li>
+          </ul>
+        </div>
+        <form id="contactForm" class="card form" onsubmit="return handleSubmit(event)">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+          <p class="form-note">This sends an email via your mail app. For a hosted form, see README.md.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Dishanth H.G · Built with ♥</p>
+      <a class="to-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
